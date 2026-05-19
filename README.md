@@ -13,15 +13,9 @@ This repository contains an end-to-end stock price data pipeline for Indian equi
   - Builds rolling windows for multi-step LSTM forecasting.
   - Trains and evaluates a TensorFlow LSTM model.
 
-- `preprocess_filter_sentinel.py` - Helper script.
-  - Loads generated LSTM window data from `nse_lstm_windows.parquet`.
-  - Removes rows with masked/sentinel target values.
-  - Fits a `StandardScaler` on training targets.
-  - Saves scaled windows and scaler metadata.
 
 - `.venv/` - Local Python virtual environment.
 
-- `nse_lstm_windows.parquet` - Generated dataset for model training/prediction.
 
 ## Key Generated Files
 
