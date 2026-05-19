@@ -14,8 +14,6 @@ This repository contains an end-to-end stock price data pipeline for Indian equi
   - Trains and evaluates a TensorFlow LSTM model.
 
 
-- `.venv/` - Local Python virtual environment.
-
 
 ## Key Generated Files
 
