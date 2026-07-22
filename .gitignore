@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files (Too large for GitHub)
+*.csv
+*.parquet
+*.h5
+*.keras
+*.pkl
+*.json
+!sectors.json
+!xgb_stock_model.json
+
+# Logs and debug files
+*.log
+*.stackdump
+*.txt
+!requirements.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
